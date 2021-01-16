@@ -1,0 +1,25 @@
+{
+  "name": "readmecreator",
+  "version": "1.0.0",
+  "description": "creates a basic readme file",
+  "main": "index.js",
+  "scripts": {
+    "test": "Success"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwanke14/readmecreator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Rachel Wanke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwanke14/readmecreator/issues"
+  },
+  "homepage": "https://github.com/rwanke14/readmecreator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
