@@ -21,12 +21,11 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require("./utils/generateMarkdown");
 const path = require('path');
-const generateMarkdown = require('./utils/generateMarkdown');
 
 const questions =[
         {
             type: 'input',
-            name: 'project title',
+            name: 'title',
             message: 'What is the name of your application?',
         },
         {
@@ -60,51 +59,50 @@ const questions =[
         },
         {
             type: 'input',
-            name: 'Dependencies',
+            name: 'dependencies',
             message: 'What prerequsites does your application require before installing the application?',
 
         },
         {
             type: 'input',
-            name: 'Installation',
+            name: 'installation',
             message: 'How do you install your application?',
 
         },
         {
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'How do you use your application?',
 
         },
         {
-            type: 'checkbox',
-            name: 'Licenses',
-            message: "Which Licenses do you use?",
-            choices: ["MIT license", "Apache License 2.0", "Mozilla Public License", "Apple Public Source License"]
-
-        },
-        {
             type: 'input',
-            name: 'Contributors',
-            message: 'Did anyone else contribute to your application?',
-
-        },
-
-        {
-            type: 'input',
-            name: 'Guide',
+            name: 'guide',
             message: 'How do you run your program?',
 
         },
         {
-            type: 'input',
-            name: 'Tests',
-            message: 'What test have you run with this applicaton?',
+            type: 'checkbox',
+            name: 'license',
+            message: "Which Licenses do you use?",
+            choices: ["MIT", "Apache", "Mozilla", "Eclipse", "Boost", "IBM"]
 
         },
         {
             type: 'input',
-            name: 'FAQ',
+            name: 'contributors',
+            message: 'Did anyone else contribute to your application?',
+
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'What tests have you run with this applicaton?',
+
+        },
+        {
+            type: 'input',
+            name: 'faq',
             message: 'What are some frequently asked questions and answers for your application?',
         },
     ]
@@ -129,7 +127,7 @@ function init() {
 
     inquirer.prompt(questions).then(inquirerResponses => {
         console.log("Generating ReadMe.");
-        writeToFile('README.md', generateMarkdown({...inquirerResponses}));
+        writeToFile('README.md', markdown({...inquirerResponses}));
     })
 }
 
