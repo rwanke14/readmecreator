@@ -39,13 +39,6 @@ const questions =[
             message: 'Add a brief description of your application.',
         },
         {
-            type: 'checkbox',
-            name: 'Table of Contents',
-            message: "What do you need in your table of contents?",
-            choices: ["Title", "Description", "Table of Contents", "Link", "Version", "Installation", "Usage", "License", "Contributors", "Tests", "Questions"],
-
-        },
-        {
             type: 'input',
             name: 'link',
             message: 'What is the link to your application?',
@@ -82,10 +75,11 @@ const questions =[
 
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
-            message: "Which Licenses do you use?",
-            choices: ["MIT", "Apache", "Mozilla", "Eclipse", "Boost", "IBM"]
+            message: "Which Licenses do you have?",
+            choices: ["MIT", "Apache", "Mozilla", "Eclipse", "GPL", "IBM"],
+            default: 'none'
 
         },
         {

@@ -1,51 +1,54 @@
-# **asfasdf**
+# **Readme Generator**
   
-  ###asdfsd
+  ### Rachel Wanke
 
-  #**Table of Contents**
+  # **Table of Contents**
 
   1. [Description](#Description)
   2. [Licenses](#Licenses)
-  3. [Application Details](#Application Details)
-  4. [Installation](#Installation)
-  5. [Usage](#Usage)
-  6. [Contributors](#Contributors)
-  7. [Tests](#Tests)
-  8. [FAQ](#FAQ)
+  3. [Installation](#Installation)
+  4. [Usage](#Usage)
+         - [Guide](## How to use the application:)
+  5. [Contributors](#Contributors)
+  6. [Tests](#Tests)
+  7. [FAQ](#FAQ)
 
-  #**License**
+  # **License**
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] (https://opensource.org/licenses/MIT)
+
+  # **Description**
+  
+  This application sets up a basic readme with license badges.
+
+  ### Live Link to Application: to be added 
+  ### Version: 1.0.0
+
+  # **Installation** /n
+
+  ### Requirements for installation: 
+
+  none
+
+  ### How to install: 
+
+  npm install read --save
   
 
-  #**Description**
-  asdfasdf
+  # **Usage**
+  Load code into your VS Studio and run terminal to answer the prompts and create a readme file. /n
 
-  #**Applicaton Details**
-
-  ###Live Link to Application: asdfsadf
-  ###Version: asdffsd
-
-  #**Installation**
-
-  ###Requirements for installation: asdfasdf
-  ###How to install:
-  adsfsfd
-  
-
-  #**Usage**
-  asdffsd
-
-  ##How to use the application:
-  asfsadf
+  ## How to use the application: /n
+  Click run and create readme that can then be saved and added into your repo.
   
 
 
-  #**Constributors**
-  asdfsdf
+  # **Constributors** /n
+  no
 
-  #**Tests**
-  asdfsdaf
+  # **Tests** /n
+  none
   
-  #**FAQ**
-  asdfsadf
+  # **FAQ** /n
+  none
 
   

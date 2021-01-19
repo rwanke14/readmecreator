@@ -2,7 +2,9 @@
 // If there is no license, return an empty string
 
 
+
 function renderLicenseBadge(license) {
+
   if(license === "MIT"){
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] (https://opensource.org/licenses/MIT)';
   }
@@ -15,12 +17,13 @@ function renderLicenseBadge(license) {
   if(license === "Eclipse"){
     return '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)';
   }
-  if(license === "Boost"){
-    return '[License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+  if(license === "GPL"){
+    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
   }
   if(license === "IBM"){
     return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)';
-  } else {
+  } 
+  if(license === 'none') {
     return "";
   }
 
@@ -67,52 +70,55 @@ function renderLicenseBadge(license) {
 function markdown(data) {
   return `# **${data.title}**
   
-  ###${data.name}
+  ### ${data.name}
 
-  #**Table of Contents**
+  # **Table of Contents**
 
   1. [Description](#Description)
   2. [Licenses](#Licenses)
-  3. [Application Details](#Application Details)
-  4. [Installation](#Installation)
-  5. [Usage](#Usage)
-  6. [Contributors](#Contributors)
-  7. [Tests](#Tests)
-  8. [FAQ](#FAQ)
+  3. [Installation](#Installation)
+  4. [Usage](#Usage)
+         - [Guide](## How to use the application:)
+  5. [Contributors](#Contributors)
+  6. [Tests](#Tests)
+  7. [FAQ](#FAQ)
 
-  #**License**
+  # **License**
   ${renderLicenseBadge(data.license)}
 
-  #**Description**
+  # **Description**
+  
   ${data.description}
 
-  #**Applicaton Details**
+  ### Live Link to Application: ${data.link} 
+  ### Version: ${data.version}
 
-  ###Live Link to Application: ${data.link}
-  ###Version: ${data.version}
+  # **Installation** /n
 
-  #**Installation**
+  ### Requirements for installation: 
 
-  ###Requirements for installation: ${data.dependencies}
-  ###How to install:
+  ${data.dependencies}
+
+  ### How to install: 
+
   ${data.installation}
   
 
-  #**Usage**
-  ${data.usage}
+  # **Usage**
+  ${data.usage} /n
 
-  ##How to use the application:
+  ## How to use the application: /n
   ${data.guide}
   
 
 
-  #**Constributors**
+  # **Constributors** /n
   ${data.contributors}
 
-  #**Tests**
+  # **Tests** /n
   ${data.tests}
   
-  #**FAQ**
+  # **FAQ** /n
   ${data.faq}
 
   `;
