@@ -107,6 +107,11 @@ inquirer
             name: 'faq',
             message: 'What are some frequently asked questions and answers for your application?',
         },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+        },
     ]).then ((data) => {
 
       //then setting up the write to file to send mark up from generateMarkdown.js to readme file as formatted.  
