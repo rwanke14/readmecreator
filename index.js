@@ -20,18 +20,16 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require("./utils/generateMarkdown");
-const path = require('path');
 
-const questions =[
+
+//inquirer prompt to prompt quesitons in terminal.
+
+inquirer
+  .prompt([
         {
             type: 'input',
             name: 'title',
             message: 'What is the name of your application?',
-        },
-        {
-            type: 'input',
-            name: 'name',
-            message: 'What is your name?',
         },
         {
             type: 'input',
@@ -84,6 +82,16 @@ const questions =[
         },
         {
             type: 'input',
+            name: 'name',
+            message: 'What is your name?',
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'What is your github username?',
+        },
+        {
+            type: 'input',
             name: 'contributors',
             message: 'Did anyone else contribute to your application?',
 
@@ -99,32 +107,19 @@ const questions =[
             name: 'faq',
             message: 'What are some frequently asked questions and answers for your application?',
         },
-    ]
+    ]).then ((data) => {
+
+      //then setting up the write to file to send mark up from generateMarkdown.js to readme file as formatted.  
+
+        const responses = markdown(data)
+
+        fs.writeFile('README.md', responses, (err) =>
+        err ? console.error(err) : console.log('Generating Readme file!')
+      );
+
+    });
 
 
 
-    
-// TODO: Include packages needed for this application
 
-// TODO: Create an array of questions for user input
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { 
-    
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
-
-}
-
-// TODO: Create a function to initialize app
-function init() { 
-
-    inquirer.prompt(questions).then(inquirerResponses => {
-        console.log("Generating ReadMe.");
-        writeToFile('README.md', markdown({...inquirerResponses}));
-    })
-}
-
-// Function call to initialize app
-init();
 

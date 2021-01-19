@@ -66,11 +66,14 @@ function renderLicenseBadge(license) {
 //   }
 // }
 
+https://github.com/
 // TODO: Create a function to generate markdown for README
 function markdown(data) {
   return `# **${data.title}**
+
+  # **Description**
   
-  ### ${data.name}
+  ${data.description}
 
   # **Table of Contents**
 
@@ -78,22 +81,32 @@ function markdown(data) {
   2. [Licenses](#Licenses)
   3. [Installation](#Installation)
   4. [Usage](#Usage)
-         - [Guide](## How to use the application:)
-  5. [Contributors](#Contributors)
-  6. [Tests](#Tests)
-  7. [FAQ](#FAQ)
+  5. [Guide](## How to use the application:)
+  6. [Contributors](#Contributors)
+  7. [Tests](#Tests)
+  8. [FAQ](#FAQ)
 
   # **License**
+
   ${renderLicenseBadge(data.license)}
 
-  # **Description**
+  ### Live Link to Application: 
+
+  ${data.link} 
+
+  ### Version: 
   
-  ${data.description}
+  ${data.version}
 
-  ### Live Link to Application: ${data.link} 
-  ### Version: ${data.version}
+  # **Installation**
 
-  # **Installation** /n
+  ### Live Link to Application: 
+
+  ${data.link} 
+
+  ### Version: 
+  
+  ${data.version}
 
   ### Requirements for installation: 
 
@@ -105,20 +118,33 @@ function markdown(data) {
   
 
   # **Usage**
-  ${data.usage} /n
+  ${data.usage} 
 
-  ## How to use the application: /n
+  ## How to use the application: 
   ${data.guide}
   
 
-
-  # **Constributors** /n
+  # **Constributors** 
   ${data.contributors}
 
-  # **Tests** /n
+  # **Tests** 
   ${data.tests}
   
-  # **FAQ** /n
+  # **Questions**
+
+  ## **Name:**
+  ### ${data.name}
+
+  ## **Github Profile**
+  ### [GitHub](http://github.com/${data.username})
+
+  ## **Contact Information**
+  ### [Email](${data.email})
+
+  If you have any issues or further questions about how this application works please send me an email at the email listed above.
+
+
+  ## **FAQ** 
   ${data.faq}
 
   `;
