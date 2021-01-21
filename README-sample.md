@@ -1,8 +1,8 @@
-# **asdfadsf**
+# **asdfsdf**
 
   # **Description**
   
-  asdfsadf
+  asdfasdf
 
   # **Table of Contents**
 
@@ -17,11 +17,11 @@
 
   # **License**
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) (https://opensource.org/licenses/MIT)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ### Live Link to Application: 
 
-  asdfsadf 
+  asdfasdf 
 
   ### Version: 
   
@@ -31,7 +31,7 @@
 
   ### Live Link to Application: 
 
-  asdfsadf 
+  asdfasdf 
 
   ### Version: 
   
@@ -43,37 +43,37 @@
 
   ### How to install: 
 
-  asdfasdf
+  asddasf
   
 
   # **Usage**
-  asdfasdf 
+  adsfasdf 
 
-  ## How to use the application: 
-  asdfasfd
+  ## Guide: 
+  asdfadsf
   
 
   # **Constributors** 
-  asdfasdf
+  no
 
   # **Tests** 
-  asdfasdf
+  none
   
   # **Questions**
 
   ## **Name:**
-  ### asdfadsf
+  ### Rachel Wanke
 
   ## **Github Profile**
-  ### [GitHub](http://github.com/asdfadsf)
+  ### [GitHub](http://github.com/rwanke14)
 
   ## **Contact Information**
-  ### [Email](asdfasdfdsa)
+  ### [Email](rkhorne09@gmail.com)
 
   If you have any issues or further questions about how this application works please send me an email at the email listed above.
 
 
   ## **FAQ** 
-  sadfasdf
+  How can you update the markdown to a different style? Answer: refer to this link: "
 
   

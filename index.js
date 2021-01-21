@@ -76,7 +76,7 @@ inquirer
         {
             type: 'list',
             name: 'license',
-            message: "Which Licenses do you have?",
+            message: "Which License do you have?",
             choices: ["MIT", "Apache", "Mozilla", "Eclipse", "GPL", "IBM"],
             default: 'none'
 
