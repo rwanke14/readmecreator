@@ -1,8 +1,8 @@
-# **Readme creator**
+# **Readme Creator**
 
   # **Description**
   
-  creates a readme
+  Creates a readme.
 
   # **Table of Contents**
 
@@ -38,13 +38,13 @@
 
   ### How to install: 
 
-  npm install
+  npm install 
   
 
   # **Usage**
 
   ## How to use the application: 
-  Download the code and run the prompts in the terminal to create readme.
+  Install the code on your computer and run the file in the terminal to populate reamdme.
   
 
   # **Constributors** 
@@ -58,7 +58,7 @@
   ## **About Creator**
   ### Name: Rachel Wanke
 
-  ### Github profile: [GitHub](http://github.com/rwank14)
+  ### Github profile: [GitHub](http://github.com/rwanke14)
 
   ### Email: rkhorne09@gmail.com
 
