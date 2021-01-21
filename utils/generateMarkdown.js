@@ -58,10 +58,6 @@ function markdown(data) {
 
   ${data.link} 
 
-  ### Version: 
-  
-  ${data.version}
-
   # **Installation**
 
   ### Version: 

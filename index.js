@@ -94,7 +94,7 @@ inquirer
         {
             type: 'input',
             name: 'tests',
-            message: 'What tests have you run with this applicaton?',
+            message: 'What tests have you run with this application?',
 
         },
         {

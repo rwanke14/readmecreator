@@ -4,7 +4,7 @@ This application is a simple readme generator that uses modularization to create
 
 ## Video Walkthrough of Application:
 
-
+[![Readme Walkthrough](./images/Videophoto.png)](https://drive.google.com/file/d/1LYamRMev8-4RsRrZV1plYtSJR9C7xeWF/view)
 
 ## Screenshots of the application while using it:
 
