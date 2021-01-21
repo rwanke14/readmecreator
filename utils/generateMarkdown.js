@@ -1,7 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 
-
+//renderLicenseBadge function created the conditions for setting up the badges and links to each badge in the markdown. 
+//If one of the options is chosen via the prompts then the connected badge will be displayed. If none is chosen then nothing will show.
 
 function renderLicenseBadge(license) {
 
@@ -29,45 +28,10 @@ function renderLicenseBadge(license) {
 
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   if(license === MIT){
-//     return '(https://opensource.org/licenses/MIT)';
-//   }
-//   if(license === Apache){
-//     return '(https://opensource.org/licenses/Apache-2.0)';
-//   }
-//   if(license === Mozilla){
-//     return '(https://opensource.org/licenses/MPL-2.0)';
-//   }
-//   if(license === Eclipse){
-//     return '(https://opensource.org/licenses/EPL-1.0)';
-//   }
-//   if(license === Boost){
-//     return '(https://www.boost.org/LICENSE_1_0.txt)';
-//   }
-//   if(license === IBM){
-//     return '(https://opensource.org/licenses/IPL-1.0)';
 
-//   } else {
-//     return "";
-//   }
 
-// }
+// TODO: Create a function to generate markdown for README 
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   if (license === none){
-//     return "";
-//   } else {
-//     return `##**Licences**\n ${renderLicenseBadge(license)}`;
-//   }
-// }
-
-https://github.com/
-// TODO: Create a function to generate markdown for README
 function markdown(data) {
   return `# **${data.title}**
 
@@ -151,5 +115,7 @@ function markdown(data) {
 
 
 }
+
+//This ties the markdown page to the main index file that holds the question prompts for the user.
 
 module.exports = markdown;

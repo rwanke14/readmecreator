@@ -16,6 +16,7 @@
 
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
+//Variables set up the files needed to run the application including the markdown file. 
 
 const inquirer = require('inquirer');
 const fs = require('fs');
@@ -116,13 +117,19 @@ inquirer
 
       //then setting up the write to file to send mark up from generateMarkdown.js to readme file as formatted.  
 
+      //This variable calls the markdown module when it is inputed into the writeFile function as responses. 
         const responses = markdown(data)
 
+        //function for write to file is pulled from notes on Node.js.
         fs.writeFile('README.md', responses, (err) =>
         err ? console.error(err) : console.log('Generating Readme file!')
+
       );
 
     });
+
+    //Other functions suggested in the example for HW were not used since there was a simplified way to do it with the inquirer npm prompts.
+
 
 
 
