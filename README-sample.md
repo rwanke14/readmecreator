@@ -2,7 +2,7 @@
 
   # **Description**
   
-  Creates a readme file
+  creates a readme
 
   # **Table of Contents**
 
@@ -10,7 +10,6 @@
   2. [Licenses](#Licenses)
   3. [Installation](#Installation)
   4. [Usage](#Usage)
-  5. [Guide](## How to use the application:)
   6. [Contributors](#Contributors)
   7. [Tests](#Tests)
   8. [FAQ](#FAQ)
@@ -29,8 +28,6 @@
 
   # **Installation**
 
-
-
   ### Version: 
   
   1.0.0
@@ -45,10 +42,9 @@
   
 
   # **Usage**
-  Use file to run the prompts and populate a readme. 
 
   ## How to use the application: 
-  Downloading the code and runing the terminal prompts.
+  Download the code and run the prompts in the terminal to create readme.
   
 
   # **Constributors** 
