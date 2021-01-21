@@ -2,7 +2,7 @@
 
   # **Description**
   
-  Creates a readme.
+  creates a readme
 
   # **Table of Contents**
 
@@ -38,13 +38,13 @@
 
   ### How to install: 
 
-  npm install 
+  npm install
   
 
   # **Usage**
 
   ## How to use the application: 
-  Install the code on your computer and run the file in the terminal to populate reamdme.
+  Download the code and run in the terminal.
   
 
   # **Constributors** 
