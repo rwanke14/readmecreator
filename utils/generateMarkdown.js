@@ -97,13 +97,11 @@ function markdown(data) {
   
   # **Questions**
 
-  ## **Name:**
-  ### ${data.name}
+  ## **About Creator**
+  ### Name: ${data.name}
 
-  ## **Github Profile**
-  ### [GitHub](http://github.com/${data.username})
+  ### Github profile: [GitHub](http://github.com/${data.username})
 
-  ## **Contact Information**
   ### [Email](${data.email})
 
   If you have any issues or further questions about how this application works please send me an email at the email listed above.
