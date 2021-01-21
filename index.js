@@ -121,7 +121,7 @@ inquirer
         const responses = markdown(data)
 
         //function for write to file is pulled from notes on Node.js.
-        fs.writeFile('README.md', responses, (err) =>
+        fs.writeFile('README-sample.md', responses, (err) =>
         err ? console.error(err) : console.log('Generating Readme file!')
 
       );
