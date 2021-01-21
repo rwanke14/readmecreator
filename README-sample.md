@@ -1,8 +1,8 @@
-# **asdfasdf**
+# **Readme creator**
 
   # **Description**
   
-  asdfasdf
+  Creates a readme file
 
   # **Table of Contents**
 
@@ -17,61 +17,61 @@
 
   # **License**
 
-  [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ### Live Link to Application: 
 
-  asdfasdf 
+  www.test.com 
 
   ### Version: 
   
-  asdfasdf
+  1.0.0
 
   # **Installation**
 
   ### Live Link to Application: 
 
-  asdfasdf 
+  www.test.com 
 
   ### Version: 
   
-  asdfasdf
+  1.0.0
 
   ### Requirements for installation: 
 
-  asdfasdf
+  none
 
   ### How to install: 
 
-  asdfasdf
+  npm install
   
 
   # **Usage**
-  asdfadfs 
+  Use file to run the prompts and populate a readme. 
 
   ## How to use the application: 
-  sadfadsf
+  Downloading the code and runing the terminal prompts.
   
 
   # **Constributors** 
-  asdfasdf
+  none
 
   # **Tests** 
-  sadfasdf
+  none
   
   # **Questions**
 
   ## **About Creator**
-  ### Name: asdfasdf
+  ### Name: Rachel Wanke
 
-  ### Github profile: [GitHub](http://github.com/asdfasdf)
+  ### Github profile: [GitHub](http://github.com/rwank14)
 
-  ### [Email](asdfasdf)
+  ### Email: rkhorne09@gmail.com
 
   If you have any issues or further questions about how this application works please send me an email at the email listed above.
 
 
   ## **FAQ** 
-  asdfasdf
+  none
 
   

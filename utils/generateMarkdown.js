@@ -102,7 +102,7 @@ function markdown(data) {
 
   ### Github profile: [GitHub](http://github.com/${data.username})
 
-  ### [Email](${data.email})
+  ### Email: ${data.email}
 
   If you have any issues or further questions about how this application works please send me an email at the email listed above.
 
