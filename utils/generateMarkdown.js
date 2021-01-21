@@ -46,7 +46,6 @@ function markdown(data) {
   2. [Licenses](#Licenses)
   3. [Installation](#Installation)
   4. [Usage](#Usage)
-  5. [Guide](## How to use the application:)
   6. [Contributors](#Contributors)
   7. [Tests](#Tests)
   8. [FAQ](#FAQ)
@@ -65,10 +64,6 @@ function markdown(data) {
 
   # **Installation**
 
-  ### Live Link to Application: 
-
-  ${data.link} 
-
   ### Version: 
   
   ${data.version}
@@ -83,10 +78,9 @@ function markdown(data) {
   
 
   # **Usage**
-  ${data.usage} 
 
   ## How to use the application: 
-  ${data.guide}
+  ${data.usage}
   
 
   # **Constributors** 

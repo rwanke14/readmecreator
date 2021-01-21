@@ -68,12 +68,6 @@ inquirer
 
         },
         {
-            type: 'input',
-            name: 'guide',
-            message: 'How do you run your program?',
-
-        },
-        {
             type: 'list',
             name: 'license',
             message: "Which License do you have?",

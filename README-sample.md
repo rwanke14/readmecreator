@@ -29,9 +29,7 @@
 
   # **Installation**
 
-  ### Live Link to Application: 
 
-  www.test.com 
 
   ### Version: 
   
