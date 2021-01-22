@@ -1,17 +1,19 @@
 # Title README Generator
 
-This application is a simple readme generator that uses modularization to create a basic readme file. 
+## About the application:
+
+This application is a simple readme generator that uses modularization to create a basic readme file. When you run the index.js file in the terminal you are prompted with a series of questions that will then be written into the readme-sample.md file. The files are modulized with the index.js being the main file and the markdown file feeds into it. This application uses the inquirer npm and methods native to node.js. 
 
 ## Video Walkthrough of Application:
 
-[![Readme Walkthrough](./images/Videophoto.png)](https://drive.google.com/file/d/1LYamRMev8-4RsRrZV1plYtSJR9C7xeWF/view)
+[![Readme Creator Walkthrough](./images/Videophoto.png)](https://drive.google.com/file/d/1LYamRMev8-4RsRrZV1plYtSJR9C7xeWF/view)
 
-## Screenshots of the application while using it:
+### Screenshots:
+
+![Terminal Prompts](./images/terminalphoto.png)
 
 
-
-
-# Important Resources used:
+## Important Resources used:
 
 Referenced a github overview of how to set up your markdown for a readme file: https://guides.github.com/features/mastering-markdown/.
 

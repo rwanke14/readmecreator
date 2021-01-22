@@ -2,7 +2,7 @@
 
   # **Description**
   
-  creates a readme
+  Application allows you to create a basic readme file for your github repository.
 
   # **Table of Contents**
 
@@ -20,11 +20,7 @@
 
   ### Live Link to Application: 
 
-  www.test.com 
-
-  ### Version: 
-  
-  1.0.0
+  www.readmecreator.com 
 
   # **Installation**
 
@@ -34,38 +30,39 @@
 
   ### Requirements for installation: 
 
-  none
+  Must install inquirer npm package before running application.
 
   ### How to install: 
 
-  npm install
+  First do npm install inquirer in your terminal or gitbash and then run the index.js file in your terminal or gitbash by typing node index.js. 
   
 
   # **Usage**
 
   ## How to use the application: 
-  Download the code and run in the terminal.
+  After installing the npm inquirer open up index.js in your terminal or gitbash and run the file and answer the question prompts. Once the prompts are finished the file will write to the readme file you have noted in the writeFile function in the index.js script.
   
 
   # **Constributors** 
-  none
+  Not at this time, but looking for contributors to add to the repository over time.
 
   # **Tests** 
-  none
+  No tests need to be run at this time, but can add them in the future.
   
   # **Questions**
 
-  ## **About Creator**
-  ### Name: Rachel Wanke
+  ## **FAQ** 
+  How can I add items to my markdown? Answer: Enter in your desired prompts in the index.js file and then add the markdown in the markdown file.
 
-  ### Github profile: [GitHub](http://github.com/rwanke14)
+  # **About Creator**
 
-  ### Email: rkhorne09@gmail.com
+  #### Name: Rachel Wanke
+
+  #### Github profile: [GitHub](http://github.com/rwanke14)
+
+  #### Email: rkhorne09@gmail.com
 
   If you have any issues or further questions about how this application works please send me an email at the email listed above.
 
-
-  ## **FAQ** 
-  none
 
   
