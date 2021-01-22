@@ -1,4 +1,4 @@
-# Title README Generator
+# README Generator
 
 ## About the application:
 
