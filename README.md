@@ -12,6 +12,9 @@ This application is a simple readme generator that uses modularization to create
 
 ![Terminal Prompts](./images/terminalphoto.png)
 
+## Link to Github Repository:
+
+https://github.com/rwanke14/readmecreator
 
 ## Important Resources used:
 
